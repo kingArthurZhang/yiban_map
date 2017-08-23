@@ -1,0 +1,22 @@
+.bus_quantity{
+    display:block;
+    position:fixed;
+    top:48px;
+    left:230px;
+    padding:4px 4px 4px 4px;
+    color:#888;
+    font-size: .8em;
+    opacity: 0.8;
+    background-color: #FCF9F3;
+    font-size: .8em;
+}
+
+.bus_status{
+    display:block;
+    padding:8px 15px;
+    color:#888;
+    font-size: .8em;
+    opacity: 0.8;
+    background-color: #FCF9F3;
+    font-size: .8em;
+}

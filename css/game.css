@@ -1,0 +1,31 @@
+body,div,a,img,article,header,p,ul,li {margin:0px;padding:0px;}
+a,a:hover,a:visited {text-decoration:none;color:inherit;}
+.win {background-color:#2dabec;}
+.lose {background-color:#ccc;}
+.pk {background-color:#e3c91c;}
+
+.new_game {display:block;padding:10px 15px;background-color:#fff;margin-top:30px;height:42px;line-height:25px;}
+
+.title_history {padding:8px 15px;color:#888;}
+
+.history_list .history_item {height:47px;line-height:30px;padding:7.5px 15px;background-color:#fff;border-bottom:1px solid #2dabec;}
+.history_list .history_item span {display:inline-block;}
+.history_list .history_item .type {width:50px;height:30px;line-height:30px;font-size:14px;border-radius:5px;text-align:center;color:#fff;margin-right:20px;}
+
+.history_list .detail {padding:10px 15px;margin-bottom:15px;background-color:#fff;}
+.history_list .detail div {width:36%;height:30px;line-height:30px;display:inline-block;text-align:center;margin:0px 6%;border-bottom:1px solid #ccc;font-size:14px;text-align: left;}
+
+.icon-down{
+    position: relative;
+    left: 120px;
+}
+
+.icon-up{
+    position: relative;
+    left: 120px;
+}
+
+.icon-right{
+    position: relative;
+    left: 270px;
+}
