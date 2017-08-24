@@ -1,14 +1,18 @@
+body,div,a,img,article,header,p,ul,li {margin:0px;padding:0px;font-family: Microsoft YaHei;}
+a,a:hover,a:visited {text-decoration:none;color:inherit;}
+
 .bus_quantity{
     display:block;
     position:fixed;
-    top:48px;
-    left:230px;
-    padding:4px 4px 4px 4px;
+    top:50px;
+    left:248px;
+    padding:5px 6px;
     color:#888;
     font-size: .8em;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: #FCF9F3;
     font-size: .8em;
+    border-radius:10px;
 }
 
 .bus_status{
@@ -16,7 +20,8 @@
     padding:8px 15px;
     color:#888;
     font-size: .8em;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: #FCF9F3;
     font-size: .8em;
+    border-radius: 10px;
 }

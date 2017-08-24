@@ -1,4 +1,4 @@
-body,div,a,img,article,header,p,ul,li {margin:0px;padding:0px;}
+body,div,a,img,article,header,p,ul,li {margin:0px;padding:0px;font-family: Microsoft YaHei;}
 a,a:hover,a:visited {text-decoration:none;color:inherit;}
 .win {background-color:#2dabec;}
 .lose {background-color:#ccc;}
@@ -28,4 +28,9 @@ a,a:hover,a:visited {text-decoration:none;color:inherit;}
 .icon-right{
     position: relative;
     left: 270px;
+}
+
+#game_logo{
+    position: relative;
+    left: 130px;
 }

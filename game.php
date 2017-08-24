@@ -12,7 +12,7 @@ $result=mysql_query($sql);
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>游戏</title>
+    <title>WUT智慧校车</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="/favicon.ico">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -41,12 +41,12 @@ $result=mysql_query($sql);
     <a class="tab-item external" href="info.html">
       <span class="icon icon-message"></span>
       <span class="tab-label">帮助与反馈</span>
-      <span class="badge">2</span>
+      <span class="badge">3</span>
 
     </a>
   </nav>
-  <div class="content" style="font-family:Microsoft Yahei;background-color:#eee;">
-
+  <div class="content" style="font-family:Microsoft YaHei;background-color:#eee;">
+     <img src="img/happy.png" id="game_logo" width="128" height="122">
 <div class="history_list">
 <a href="game/game.html">
     <div class="history_item">
@@ -72,9 +72,8 @@ $result=mysql_query($sql);
     <div class="history_item">
 			<span class="type <?php  echo $class;?>"><?php echo $row['mode']; ?></span>
 			<span class="time"><?php echo $row['current']; ?></span>
-      <span class="icon icon-down"></span>
+      <span class="icon icon-down" id="down_arrow"></span>
       <span class="icon icon-up"></span>
-			<span class="arrow"></span>
 		</div>
 		<div class="detail">
 			<div class="detail_item">难度：<?php echo $row['level']; ?></div>
@@ -83,8 +82,24 @@ $result=mysql_query($sql);
 			<div class="detail_item">用时：<?php echo $row['time']; ?> 秒</div>
 		</div>
   <?php } ?>
-	</div>
+    </div>
 
+  <div class="history_list">
+    <div class="history_item">
+      <span class="type pk">玩家</span>
+      <span class="time">17-08-24 04:50:42</span>
+      <span class="icon icon-down"></span>
+      <span class="icon icon-up"></span>
+    </div>
+    <div class="detail">
+      <div class="detail_item">难度：自定义</div>
+      <div class="detail_item">回合：21 轮</div>
+      <div class="detail_item">结果：黑方胜</div>
+      <div class="detail_item">用时：120 秒</div>
+    </div>
+
+  <div class="content-block">
+    <p><a href="#" class="button button-big">点击显示更多</a></p>
   </div>
 
     </div>

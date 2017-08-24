@@ -42,7 +42,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>游戏结束</title>
+    <title>WUT智慧校车</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="/favicon.ico">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -56,9 +56,6 @@
   <body>
     <div>
         <div class="page">
-        <!-- 你的html代码 -->
-
-
     <header class="bar bar-nav">
       <a class="icon icon-left pull-left" href="game.php"></a>
       <h1 class='title'>游戏结束</h1>
